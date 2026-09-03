@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sourav Mahajan – Portfolio</title>
+    <meta name="description"
+        content="Software & Data Engineer portfolio of Sourav Mahajan, showcasing projects, skills, certifications, and contact information." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="stylee.css" />
+</head>
+
+<body>
+    <!-- Live Background Overlay -->
+    <div class="bg-interactive"></div>
+
+    <!-- Fixed Navigation -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <div class="nav-brand">Sourav Mahajan</div>
+            <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="site-navigation">
+                <li><a href="#hero" class="nav-home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-external">
+                <a href="https://www.linkedin.com/in/souravmahajan06/" target="_blank" aria-label="LinkedIn"
+                    class="icon-link">LinkedIn</a>
+                <a href="https://github.com/souravmahajan06" target="_blank" aria-label="GitHub"
+                    class="icon-link">GitHub</a>
+                <label class="theme-switch">
+                    <input type="checkbox" id="theme-toggle" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-name">Sourav Mahajan</h1>
+                <p class="hero-title">Data Analyst &amp; Artificial Intelligence | CS Undergraduate at LPU</p>
+                <p class="hero-intro">Passionate about building efficient web applications and data-driven solutions.
+                </p>
+                <div class="hero-cta">
+                    <a href="C:\Users\Dell\Documents\SouravMahajan cv.docx" download
+                        class="btn primary highlight-btn">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="profile-card">
+                    <img src="C:\Users\Dell\OneDrive - Lovely Professional University\projects\portfolio\photo1.png"
+                        alt="Sourav Mahajan" class="profile-img" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="about-layout container">
+            <div class="about-left">
+                <h2 style="text-align: left;">Who <em>am I?</em></h2>
+                <div class="about-imgs">
+                    <div class="ai-main"><img
+                            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=85&fit=crop&crop=center"
+                            alt="Coding Workspace" /></div>
+                    <div class="ai-sm"><img
+                            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=85&fit=crop"
+                            alt="Data Visualization" /></div>
+                </div>
+            </div>
+            <div class="about-right">
+                <p class="about-lead">Hi — I'm <strong>Sourav Mahajan.</strong> A Computer Science & Engineering student
+                    at Lovely Professional University with a strong passion for data analytics, web development, and
+                    problem-solving.</p>
+                <p>I specialize in translating data into actionable insights and building practical web tools. My
+                    technical skillset spans Python, SQL, and analytical libraries like Pandas, NumPy, and Matplotlib. I
+                    love working with visualization tools like Looker Studio, Cloud platforms (GCP), and databases
+                    (Oracle/DBMS).</p>
+                <p>Recently, I built a Carbon Footprint Awareness Platform featuring interactive emission calculators
+                    and AI-driven insights powered by the Gemini LLM. Outside of project building, I’m an active
+                    competitive programmer with a 1492 LeetCode rating and a LeetCode Data Navigator badge for SQL
+                    mastery.</p>
+                <p>When I’m not coding or analyzing data, I’m continuously learning new technologies to build smarter,
+                    data-backed solutions.</p>
+                <div class="about-details">
+                    <div class="ad-item"><span class="ad-key">Location</span><span class="ad-val">India 📍</span></div>
+                    <div class="ad-item"><span class="ad-key">Degree</span><span class="ad-val">B.Tech CSE</span></div>
+                    <div class="ad-item"><span class="ad-key">University</span><span class="ad-val">Lovely Professional
+                            University</span></div>
+                    <div class="ad-item"><span class="ad-key">Focus</span><span class="ad-val">Data Analytics</span>
+                    </div>
+                </div>
+                <div class="about-btns">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn-outline">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2>My <em>Skills</em></h2>
+            <div class="skills-bento">
+                <div class="sb-cell">
+                    <div class="sb-cell-head">
+                        <div class="sb-icon" style="background: rgba(255,107,74,0.1); color: var(--primary-color);">
+                            &lt;/&gt;</div>
+                        <div>
+                            <h4>Languages</h4>
+                            <p>Core programming</p>
+                        </div>
+                    </div>
+                    <div class="chip-row">
+                        <span class="schip">Python</span>
+                        <span class="schip">C / C++</span>
+                        <span class="schip">JavaScript</span>
+                        <span class="schip">SQL</span>
+                    </div>
+                </div>
+
+                <div class="sb-cell">
+                    <div class="sb-cell-head">
+                        <div class="sb-icon" style="background: rgba(59,130,246,0.1); color: var(--secondary-color);">📊
+                        </div>
+                        <div>
+                            <h4>Data Analytics & ML</h4>
+                            <p>Extracting insights</p>
+                        </div>
+                    </div>
+                    <div class="chip-row">
+                        <span class="schip">Pandas</span>
+                        <span class="schip">NumPy</span>
+                        <span class="schip">Scikit‑learn</span>
+                        <span class="schip">Matplotlib</span>
+                        <span class="schip">Excel</span>
+                        <span class="schip">Google Sheets</span>
+                    </div>
+                </div>
+
+                <div class="sb-cell">
+                    <div class="sb-cell-head">
+                        <div class="sb-icon" style="background: rgba(16,185,129,0.1); color: #10b981;">⚙️</div>
+                        <div>
+                            <h4>Developer Tools & Platforms</h4>
+                            <p>Building & Deploying</p>
+                        </div>
+                    </div>
+                    <div class="chip-row">
+                        <span class="schip">GitHub</span>
+                        <span class="schip">Oracle</span>
+                        <span class="schip">Looker Studio</span>
+                        <span class="schip">GCP</span>
+                        <span class="schip">HTML5</span>
+                        <span class="schip">CSS3</span>
+                    </div>
+                </div>
+
+                <div class="sb-cell">
+                    <div class="sb-cell-head">
+                        <div class="sb-icon" style="background: rgba(139,92,246,0.1); color: #8b5cf6;">📚</div>
+                        <div>
+                            <h4>Core CS</h4>
+                            <p>Fundamentals</p>
+                        </div>
+                    </div>
+                    <div class="chip-row">
+                        <span class="schip">DBMS</span>
+                        <span class="schip">Computer Networks</span>
+                        <span class="schip">OOP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2>Selected <em>Projects</em></h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=1200&amp;q=85&amp;fit=crop"
+                            alt="Mountain landscape representing a curated travel experience" class="project-image" />
+                        <span class="project-number">01</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-kicker">Travel experience platform</p>
+                        <h3>Physical Event Experience</h3>
+                        <p>A polished trip-planning experience that helps people choose a memorable place to meet,
+                            personalise an itinerary, and explore destinations by mood.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://souravmahajan06.github.io/PhysicalEventExperience/" target="_blank"
+                                rel="noopener noreferrer" class="btn primary">View Live Site <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1200&amp;q=85&amp;fit=crop"
+                            alt="Green forest representing environmental awareness" class="project-image" />
+                        <span class="project-number">02</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-kicker">Sustainability web tool</p>
+                        <h3>Carbon Footprint Awareness</h3>
+                        <p>A responsive calculator that turns transport, home energy, and diet choices into clear
+                            emissions insights, personalised actions, and locally saved history.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/souravmahajan06/Carbon_footprint" target="_blank"
+                                rel="noopener noreferrer" class="btn secondary">View GitHub <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications-section">
+        <div class="container">
+            <h2>My <em>Certificates</em></h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="C:\Users\Dell\OneDrive - Lovely Professional University\projects\portfolio\looker cert.png"
+                            alt="Google Cloud Certificate" />
+                    </div>
+                    <div class="cert-info">
+                        <h4>Prepare Data for Looker Dashboards and Reports</h4>
+                        <p class="cert-issuer">Google Cloud</p>
+                    </div>
+                    <a href="https://www.skills.google/public_profiles/f1c7c71f-4a57-4508-b16e-863e2299ca9f/badges/27149975"
+                        target="_blank" class="btn verify-btn">Verify Certificate ↗</a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="C:\Users\Dell\OneDrive - Lovely Professional University\projects\portfolio\python_certificates.jfif"
+                            alt="Python Certificate" />
+                    </div>
+                    <div class="cert-info">
+                        <h4>Data Cleaning in Python Essential Training</h4>
+                        <p class="cert-issuer">LinkedIn Learning</p>
+                    </div>
+                    <a href="https://www.linkedin.com/learning/certificates/c06b52a5e5fc8b92cda5b242a331fbb200a678839c42fbac87238075c1c06480?trk=share_certificate"
+                        target="_blank" class="btn verify-btn">Verify Certificate ↗</a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=85&fit=crop"
+                            alt="SQL Certificate" />
+                    </div>
+                    <div class="cert-info">
+                        <h4>SQL: Data Reporting and Analysis</h4>
+                        <p class="cert-issuer">LinkedIn Learning</p>
+                    </div>
+                    <a href="https://www.linkedin.com/learning/certificates/da74ea695dcfe1427a0b962857f5dc14afdaf049662e4be74ad1b939d3ac56c6?trk=share_certificate"
+                        target="_blank" class="btn verify-btn">Verify Certificate ↗</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements-section">
+        <div class="container">
+            <h2>Milestones &amp; <em>Impact</em></h2>
+            <div class="achieve-grid">
+                <article class="achieve-card">
+                    <span class="achievement-icon" aria-hidden="true">01</span>
+                    <h4>Peak LeetCode Rating</h4>
+                    <p class="achievement-value">1492</p>
+                    <p>Built through consistent problem-solving and algorithm practice.</p>
+                </article>
+                <article class="achieve-card badge-card">
+                    <div class="badge-image-wrap">
+                        <img src="Data navigator batch.png"
+                            alt="LeetCode Data Navigator badge" class="badge-image" />
+                    </div>
+                    <h4>SQL &amp; LeetCode Badges</h4>
+                    <p>50+ SQL problems solved, including the Data Navigator badge.</p>
+                </article>
+                <article class="achieve-card volunteer-card">
+                    <span class="achievement-icon" aria-hidden="true">03</span>
+                    <p class="achievement-kicker">Community contribution</p>
+                    <h4>Smart India Hackathon 2025</h4>
+                    <p>Volunteered at SIH 2025, supporting a collaborative environment for innovation and student
+                        problem-solving.</p>
+                    <a href="https://www.linkedin.com/posts/souravmahajan06_smartindiahackathon-sih2025-volunteer-activity-7430256659912101888-26EZ?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAD2XJsIByqOpDnozRi0Sceo_cfpFg5xuG4M"
+                        target="_blank" rel="noopener noreferrer" class="achievement-link">View LinkedIn post <span
+                            aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:souravmahajan996@gmail.com">souravmahajan996@gmail.com</a></p>
+                <p>Mobile: +91‑600548856</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Sourav Mahajan. All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
