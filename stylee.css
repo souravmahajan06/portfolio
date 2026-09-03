@@ -898,6 +898,8 @@ input:checked + .slider:before {
 .education-marker { flex: 0 0 2.5rem; width: 2.5rem; height: 2.5rem; display: grid; place-items: center; z-index: 1; background: var(--primary-color); color: #fff; border: 5px solid var(--bg-color); border-radius: 50%; font-size: 0.7rem; font-weight: 700; }
 .education-details { flex: 1; padding: 1.35rem 1.5rem; background: var(--card-bg); border: 1px solid var(--line); border-radius: 4px; box-shadow: 5px 5px 0 rgba(20, 125, 146, 0.14); transition: transform 0.3s ease, box-shadow 0.3s ease; }
 .education-card:hover .education-details { transform: translateX(6px); box-shadow: 9px 9px 0 rgba(232, 86, 63, 0.16); }
+.current-education .education-details { border-left: 4px solid var(--primary-color); }
+.current-education .education-marker { box-shadow: 0 0 0 5px rgba(232, 86, 63, 0.14); }
 .education-period { color: var(--primary-color); font-size: 0.76rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
 .education-details h3 { color: var(--text-color); font-family: 'Space Grotesk', sans-serif; font-size: 1.2rem; letter-spacing: -0.03em; margin: 0.3rem 0; }
 .education-school { color: var(--muted-color); }
